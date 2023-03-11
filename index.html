@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>SkeloCalc.NET</title>
+</head>
+<body>
+
+    <div class="container bg-secondary p-5 my-5 text-white rounded">
+
+        <h2>Basic Calculator</h2>
+
+        <br>
+    
+        <form>
+            <div class="form-group row">
+              <div class="col-xs-2 w-25">
+                <label for="ex1">First Number</label>
+                <input class="form-control" id="num1" type="text">
+              </div>
+              <div class="col-xs-2 w-25">
+                <label for="ex2">Second Number</label>
+                <input class="form-control" id="num2" type="text">
+              </div>
+             
+              <div class="col-xs-2 w-25">
+                
+                <label class="control-label text-right" id="opr" for="ex2">Result</label>
+                <input class="form-control" id="result" value="" type="text" readonly>
+              </div>
+              </div>
+              </form>
+
+    <div class="container aalign-content-md-center">
+
+    <br>
+
+    <div id="buttons">
+    <button class="btn btn-secondary btn-lg" id="add">+</button>
+    <button class="btn btn-secondary btn-lg" id="subtract">−</button>
+    <button class="btn btn-secondary btn-lg" id="multiply">×</button>
+    <button class="btn btn-secondary btn-lg" id="division">÷</button>
+    <button class="btn btn-secondary btn-lg" id="modul">𝘮𝘰𝘥</button>
+    </div>
+
+    <br>
+
+    <p class="container col-md-12 w-75" id="answer">Enter your numbers then select the desired operation</p>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <p id="foot">Copyright © Royce Lariego 2023</p>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
